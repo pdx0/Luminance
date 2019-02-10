@@ -2258,6 +2258,7 @@ class Text
                             <a class="bb_button" onclick="insert('[info]', '<?= $textarea; ?>')" title="Info icon: [info]" alt="info">info</a>
                             <a class="bb_button" onclick="insert('[plot]', '<?= $textarea; ?>')" title="Plot icon: [plot]" alt="plot">plot</a>
                             <a class="bb_button" onclick="insert('[screens]', '<?= $textarea; ?>')" title="Screens icon: [screens]" alt="screens">screens</a>
+                            <a class="bb_button" onclick="tag('mediainfo', '<?= $textarea; ?>')" title="Mediainfo: [mediainfo]media info output[/mediainfo]" alt="mediainfo">Mediainfo</a>
 
         <?php if (check_perms('site_moderate_forums')) { ?>
                                 <a class="bb_button" style="border: 2px solid #600;" onclick="tag('mcom', '<?= $textarea; ?>')" title="Staff Comment: [mcom]text[/mcom]" alt="Mod comment">Mod</a>
